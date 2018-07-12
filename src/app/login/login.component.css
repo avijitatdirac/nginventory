@@ -1,0 +1,16 @@
+.container {
+  width: auto;
+  border: 1px solid;
+  height: 768px;
+  background: url("../../assets/blue-purple.png") no-repeat;
+}
+
+.jumbotron{
+  width: 600px;
+  margin: auto;
+  margin-top: 200px;
+}
+
+.form-control {
+  height: 50px;
+}

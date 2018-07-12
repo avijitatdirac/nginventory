@@ -1,0 +1,20 @@
+.sidebar-wrapper{
+    width: 20%;
+    border: 1px solid;
+}
+ul {
+    list-style: none;
+}
+li{
+    margin-top: 20px;
+    cursor: pointer;
+}
+ul li ul li{
+    margin-top: 5px;
+    margin-left: -25px;
+    padding-left: 0px;
+    display: none;
+}
+ul li:hover ul li{
+    display: block;
+}

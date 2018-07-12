@@ -1,0 +1,29 @@
+<div class="container-fluid">
+  <div class="container-fluid panel panel-default">
+    <div class="panel-heading">
+      <div class="text-center"> <h2> Add a user </h2> </div>
+    </div>
+    <div class="panel-body">
+      <div class="content">
+      <div *ngIf="msg">{{ msg }}</div>
+      <form>
+        <div class="form-group">
+         <input type="text" id="inputSuccess" name="firstname" placeholder="Enter first name...">
+        </div>
+        <input type="text" id="lname" name="lastname" placeholder="Enter last name..."> <br> <br>
+        <input type="text" id="email" name="email" placeholder="Enter email..."> <br> <br>
+    
+        <input type="text" id="pno" name = "phone" placeholder="Enter phone no..."> <br> <br>
+    
+        <input type="password" id="pass" name= "password" placeholder="Enter password..."> <br><br>
+    
+        <input type="text" id="did" name="dept_id" placeholder="Enter department id..."> <br><br>
+        <input type="text" id="addr" name="address" placeholder="Enter address...">
+      </form>
+        <button type="submit" (click)="onSubmit(firstname, lastname, email, phone, password, dept_id,address)" 
+          class="btn btn-primary"> Submit </button> &nbsp;
+        <button type="reset" class="btn btn-primary"> Reset </button>
+      </div>
+    </div>
+  </div>
+</div>

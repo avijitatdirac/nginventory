@@ -1,0 +1,77 @@
+<div>
+    <form action="index.html" method="post">
+
+        <h1>
+            Add Customer <span class="glyphicon glyphicon-plus-sign"></span></h1>
+
+
+        <fieldset>
+            <legend><span class="number">1</span>Basic Information</legend>
+            <label for="name"><span class="glyphicon glyphicon-user"></span> Name:</label>
+            <input type="text" id="name" name="user_name">
+
+            <label for="no"><span class="glyphicon glyphicon-earphone"></span> Phone no:</label>
+            <input type="number" id="phone no" name="phone no">
+
+            <label for="gender"><span class="glyphicon glyphicon-tag"></span> Gender:</label>
+            <input type="radio" id="male" value="male" name="male"><label for="male" class="light">Male</label><br>
+            <input type="radio" id="female" value="female" name="female"><label for="female" class="light">Female</label>
+        </fieldset>
+
+        <fieldset>
+            <legend><span class="number">2</span>Detail Information</legend>
+            <label for="bio"><span class="glyphicon glyphicon-map-marker"></span> Address:</label>
+            <textarea id="bio" name="user_add"></textarea>
+        </fieldset>
+
+
+
+        <fieldset>
+            <label for="job"> <span class="glyphicon glyphicon-map-marker"></span> State:</label>
+            <select id="job" name="user_state">
+    <option value="west_bengal">West Bengal</option>
+    <option value="Mumbai">Mumbai</option>
+    <option value="delhi">Delhi</option>
+    <option value="pune">pune</option>
+    <option value="kerol">Kerol</option>
+            </select>
+            <label for="pin"><span class="glyphicon glyphicon-lock"></span> Pin Code:</label>
+            <input type="number" id="pin" name="pin">
+        </fieldset>
+
+
+
+
+        <fieldset>
+            <label for="job"><span class="glyphicon glyphicon-home"></span>  Organisation:</label>
+            <select id="job" name="user_job">
+    <optgroup label="Web">
+      <option value="frontend_developer">Front-End Developer</option>
+      <option value="php_developor">PHP Developer</option>
+      <option value="python_developer">Python Developer</option>
+      <option value="rails_developer"> Rails Developer</option>
+      <option value="web_designer">Web Designer</option>
+      <option value="WordPress_developer">WordPress Developer</option>
+    </optgroup>
+    <optgroup label="Mobile">
+      <option value="Android_developer">Androild Developer</option>
+      <option value="iOS_developer">iOS Developer</option>
+      <option value="mobile_designer">Mobile Designer</option>
+    </optgroup>
+    <optgroup label="Business">
+      <option value="business_owner">Business Owner</option>
+      <option value="freelancer">Freelancer</option>
+    </optgroup>
+    <optgroup label="Other">
+      <option value="secretary">Secretary</option>
+      <option value="maintenance">Maintenance</option>
+    </optgroup>
+  </select>
+
+
+
+        </fieldset>
+        <button type="submit"><span class="glyphicon glyphicon-user"></span>  Add Customer</button>
+
+    </form>
+</div>
